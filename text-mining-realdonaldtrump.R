@@ -158,8 +158,7 @@ morning_afternoon_ratios %>%
   ylab("Morning / Afternoon") +
   scale_fill_manual(name = "", labels = c("Morning", "Afternoon"),
                     values = c("red", "lightblue")) +
-  labs(title = "Relative word frequency in @realdonaldtrump tweets: morning vs afternoon") +
-  myTheme()
+  labs(title = "Relative word frequency in @realdonaldtrump tweets: morning vs afternoon")
 
 
 
@@ -196,7 +195,7 @@ tokenizedWords <- get_tokens("What a happy joyous day!", pattern = "\\W")
 
 
 # We can also tokenize a large text into sentences
-sou <- readChar('d:/state-of-the-union-2018.txt', file.info(fileName)$size) %>%
+sou <- readChar('d:/state-of-the-union-2018.txt', file.info('d:/state-of-the-union-2018.txt')$size) %>%
   str_replace_all("[\r\n]" , " ") # for cleanup
 
 tokenizedSentences <- get_sentences(sou)
