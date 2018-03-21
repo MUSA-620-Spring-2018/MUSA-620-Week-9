@@ -32,6 +32,8 @@ Examples:
 * Are tweets with emojis happier than those without?
 * Which emojis are the most positive and which are the most negative?
 * Compare the emoji use and sentiment scores of tweets mentioning @realdonaldtrump with those of a random sample of tweets.
+* Examine the sentiment and emoji use of [Twitter bots](https://github.com/mkearney/botrnot) vs real users.
+* Choose a few emojis whose sentiment is obvious (e.g. angry face, grinning face) and test how well their use correlates with sentiment scores.
 
 ### Emoji encodings
 
@@ -52,3 +54,8 @@ Using these codes, you can identify any tweet containing a particular emoji by m
 - all R scripts used in scraping, analyzing, and visualizing the data and anything else I would need to replicate your analysis (without having to collect the tweets myself).
 - a written explanation of: the steps you took to create it, any challenges you encountered along the way, and reasons for your design choices
 
+### Notes
+
+- Consider whether you want to include retweets and/or replies in you analysis. Unless you have a reason for including retweets, the default should be to filter them out since they will, in effect, create duplicates in your data.
+- You should examine your data manually to make sure the sample you are using is appropriate - should you be filtering out foreign language tweets, highly active users that are skewing the sample?
+- You do not have to collect all your data in a single streaming session into one large file. It may be easier to break the task into chunks and combine the data later in R. 
