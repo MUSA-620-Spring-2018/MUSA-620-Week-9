@@ -24,14 +24,14 @@ This assignment is **required**. Please turn it in by email to myself (galkamaxd
 The specifics of this assignment are open ended, subject to the following requirements:
 
 * The analysis must involve at a minimum 10,000 tweets, collected via the Twitter streaming API. Search parameters are up to you.
-* The tweets must be segmented by some characteristic(s) and compared on the basis of sentiment
+* The tweets must be segmented by some characteristic(s) and compared on the basis of sentiment.
 * Emoji use must factor in to the analysis.
 
 Examples:
 
 * Are tweets with emojis happier than those without?
 * Which emojis are the most positive and which are the most negative?
-* Compare the emoji use sentiment of tweets mentioning @realdonaldtrump with those of a random sample of tweets.
+* Compare the emoji use and sentiment scores of tweets mentioning @realdonaldtrump with those of a random sample of tweets.
 
 ### Emoji encodings
 
