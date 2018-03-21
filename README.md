@@ -37,7 +37,7 @@ Examples:
 
 Emojis in streamed tweets can be identified by their byte code.
 
-For example, "<ed><a0><bd><ed><b1><8d>" is the byte code for the thumbs up emoji. When you stream in a tweet containing this emoji, such as [this one](https://twitter.com/TheWWEWolfe/status/976187950252863491), its text will appear like this: "<ed><a0><bd><ed><b1><8d>nothing is impossible https://t.co/AckwyTxVjR".
+For example, `<ed><a0><bd><ed><b1><8d>` is the byte code for the thumbs up emoji. When you stream in a tweet containing this emoji, such as [this one](https://twitter.com/TheWWEWolfe/status/976187950252863491), its text will appear like this: `<ed><a0><bd><ed><b1><8d>nothing is impossible https://t.co/AckwyTxVjR`.
 
 You can find a full list of emojis and their associated encodings here: [emoji-encodings.csv](https://github.com/MUSA-620-Spring-2018/MUSA-620-Week-9/blob/master/emoji-encodings.csv) in the "streamApiEncodings" column.
 
