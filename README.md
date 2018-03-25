@@ -11,8 +11,9 @@ R data visualizers to follow on Twitter:
 ### CoreNLP
 
 - To use [Stanford's CoreNLP](https://stanfordnlp.github.io/CoreNLP/index.html) software, you must have Java installed. If you successfully got Selenium to work, then Java is already installed.
-- Download the files [coreNLP.R](https://github.com/MUSA-620-Spring-2018/MUSA-620-Week-9/blob/master/coreNLP.R) and [myProps.properties](https://github.com/MUSA-620-Spring-2018/MUSA-620-Week-9/blob/master/myProps.properties).
-- The steps for CoreNLP setup and usage are given in coreNLP.R.
+- Download the files [coreNLP.r](https://github.com/MUSA-620-Spring-2018/MUSA-620-Week-9/blob/master/coreNLP.R) and [myProps.properties](https://github.com/MUSA-620-Spring-2018/MUSA-620-Week-9/blob/master/myProps.properties).
+- The steps for setup and usage are given in the coreNLP.r script.
+- If you want to experiment with CoreNLP's other functionalities, you can find the full list of ["annotators" here](https://stanfordnlp.github.io/CoreNLP/annotators.html). To use them, open your .properties file and add them in manually.
 
 
 # Assignment <a id="assignment"></a>
@@ -29,7 +30,7 @@ The specifics of this assignment are open ended, subject to the following requir
 
 * The analysis must involve at a minimum 10,000 tweets, collected via the Twitter streaming API. Search parameters are up to you.
 * The tweets must be segmented by some characteristic(s) and compared on the basis of sentiment.
-* Emoji use must factor in to the analysis.
+* Emoji use must factor into the analysis.
 
 Examples:
 
