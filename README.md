@@ -8,7 +8,11 @@ R data visualizers to follow on Twitter:
 * [@lenkiefer](https://twitter.com/lenkiefer)
 * [@dataandme](https://twitter.com/dataandme)
 
+### CoreNLP
 
+- To use [Stanford's CoreNLP](https://stanfordnlp.github.io/CoreNLP/index.html) software, you must have Java installed. If you successfully got Selenium to work, then Java is already installed.
+- Download the files [coreNLP.R](https://github.com/MUSA-620-Spring-2018/MUSA-620-Week-9/blob/master/coreNLP.R) and [myProps.properties](https://github.com/MUSA-620-Spring-2018/MUSA-620-Week-9/blob/master/myProps.properties).
+- The steps for CoreNLP setup and usage are given in coreNLP.R.
 
 
 # Assignment <a id="assignment"></a>
