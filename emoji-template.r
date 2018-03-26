@@ -1,5 +1,9 @@
 
 
+library(rtweet) #https://cran.r-project.org/web/packages/rtweet/rtweet.pdf
+library(streamR) #https://cran.r-project.org/web/packages/streamR/streamR.pdf
+library(ROAuth)
+
 
 # Matching a single string against a single keyword
 #   If regexpr finds a match, it will return the character position at which the match is found (in the example above, it will return 1).
